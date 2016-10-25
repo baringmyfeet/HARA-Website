@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Please Login Model Center Reports</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+    <body id="default">
+        <form id="form1" method="post">
+            <div class="container">
+                <p id="title">Welcome to HASA Model Center Reports</p>
+                <div class="row vertical-offset">
+                    <div class="col-md-4 col-md-offset-4">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title" id="signHead">Sign in to HASA</h3>
+                            </div>
+                            <div class="panel-body">
+                                <form role="form">
+                                    <fieldset>
+                                        <div class="form-group">
+                                            <input id="userName" class="form-control" placeholder="Username" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <input id="password" class="form-control" placeholder="Password" type="password" required />
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="checkbox" id="rememberMe" />
+                                            <label for="rememberMe" class="control-label">Remember me</label>
+                                            <a href="#" id="loginInstruction" data-toggle="modal" data-target="#loginModal">Login Instructions.</a>
+
+                                            <!-- Modal -->
+                                            <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                                              <div class="modal-dialog" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                                    <h4 class="modal-title" id="myModalLabel">Login Instructions</h4>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    You can use HASA FACTORS username or standard username which created by Model Center Reports Administrators to login the system. Only authorized users can access Model Center Reports.
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>   
+                                        <!-- Button HTML (to Trigger Modal) -->  
+                                        </div>
+                                        <div class="form-group">
+                                            <button id="bLogin" class="btn btn-lg btn-success btn-block">Login</button>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer col-md-4 col-md-offset-4" >
+                    <ul class="footer-links">
+                        <li>
+                           <a href="#">HASAWEB</a> 
+                        </li>
+                        <li>
+                           <a ID="HyperLink1" href="#">NYC</a> 
+                        </li>
+                        <li>
+                           <a href="#">HRA</a> 
+                        </li>
+                        <li>
+                           <a href="#">Contact Us</a> 
+                        </li>
+                        <li>
+                           <a href="#">SUNPFIM</a> 
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </form>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
+    </body>
+</html>

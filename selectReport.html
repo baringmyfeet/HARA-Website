@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/bootstrap-datepicker.min.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav class="navbar navbar-default navbar-static-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="selectReport.html">HASA Model Center Report</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="selectReport.html">Dashboard</a></li>
+                        <li><a href="#">Help</a></li>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="#" aria-expanded="false">
+                                <div class="user">
+                                    <span class="glyphicon glyphicon-user name"> Admin</span>
+                                </div>
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" >
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">Settings</a></li>
+                                <li><a href="#">Logout</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+               </div>
+            </div>
+        </nav>
+
+        <div class="container" id="bottom-offset">
+            <div class="row">
+                <div class="col-sm-2">
+                  <ul class="nav nav-stacked">
+                    <li class="active"><a href="selectReport.html">Home</a></li>
+                    <li><a href="#">Generate Reports</a></li>
+                    <li><a href="#">Add User</a></li>
+                    <li><a href="#">Modify User</a></li>
+                    <li><a href="#">Manage User</a></li>
+                    <li><a href="#">Delete User</a></li>
+                  </ul>
+                </div>
+
+                <div class="col-sm-10">
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h4>Select Report Options</h4></div>
+                        <div class="panel-body">
+                            <p>Select a HASA Center Name.</p>
+                            <p>Choose one of the reports from the table below.</p>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h4>All Available Reports</h4></div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading"><h4>Select from calendar</h4></div>
+                        <div class="panel-body">
+                            <p>Select staring date and ending date to generate report. No date is needed for Today's Report.</p>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <div class="input-group date" id="startDate">
+                                        <input class="form-control" placeholder="Report Starting Date" />
+                                        <span class="input-group-addon btn">
+                                            <span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>  
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <div class="input-group date" id="endDate">
+                                        <input class="form-control" placeholder="Report Ending Date" />
+                                        <span class="input-group-addon btn">
+                                            <span class="glyphicon glyphicon-calendar"></span>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="form-group">
+                                    <button class="btn btn-success">Display Report</button>
+                                </div>
+                            </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer" id="footer-select">
+            <div class="container">
+                <ul class="footer-links" id="footer-select-links">
+                    <li><a href="#">HASAWEB</a></li> 
+                    <li><a href="#">NYC</a> </li>
+                    <li><a href="#">HRA</a> </li>
+                    <li><a href="#">Contact Us</a> </li>
+                    <li><a href="#">SUNPFIM</a> </li>
+                </ul>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="js/moment.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.17.37/js/bootstrap-datetimepicker.min.js"></script>
+        <script src="js/script.js"></script>   
+    </body>
+</html>
