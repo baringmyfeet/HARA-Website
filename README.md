@@ -2,4 +2,4 @@
 
 Login page: https://htmlpreview.github.io/?https://github.com/baringmyfeet/HARA-Website/blob/master/index.html
 
-Select report page: 
+Select report page: https://htmlpreview.github.io/?https://github.com/baringmyfeet/HARA-Website/blob/master/selectReport.html
